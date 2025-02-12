@@ -1,0 +1,34 @@
+# Android Studio / IntelliJ project files
+UnoHomeApp/*.iml
+UnoHomeApp/.idea/
+UnoHomeApp/.idea/**/workspace.xml
+UnoHomeApp/.idea/**/tasks.xml
+UnoHomeApp/.idea/**/gradle.xml
+UnoHomeApp/.idea/**/assetWizardSettings.xml
+UnoHomeApp/.idea/**/navEditor.xml
+
+# Gradle files
+UnoHomeApp/.gradle/
+UnoHomeApp/.externalNativeBuild/
+UnoHomeApp/.cxx/
+
+# Build and generated files
+UnoHomeApp/build/
+UnoHomeApp/captures/
+
+# Local properties 
+UnoHomeApp/local.properties
+
+# Firebase config 
+UnoHomeApp/google-services.json
+
+# Keystore files 
+UnoHomeApp/*.jks
+UnoHomeApp/*.keystore
+
+# Logs and cache
+UnoHomeApp/*.log
+UnoHomeApp/crashlytics/
+
+# OS-specific files
+UnoHomeApp/.DS_Store

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_home"
+        android:title="@string/home_nav_bar_title"
+        android:icon="@drawable/homenavicon">
+    </item>
+    <item
+        android:id="@+id/ic_devices"
+        android:title="@string/devices_nav_bar_title"
+        android:icon="@drawable/devicenavicon">
+    </item>
+    <item
+        android:id="@+id/ic_automation"
+        android:title="@string/routines_nav_bar_title"
+        android:icon="@drawable/automationnavicon">
+    </item>
+    <item
+        android:id="@+id/ic_themes"
+        android:title="@string/themes_nav_bar_title"
+        android:icon="@drawable/themesnavicon">
+    </item>
+    <item
+        android:id="@+id/ic_settings"
+        android:title="@string/settings_nav_bar_title"
+        android:icon="@drawable/settingsnavicon">
+    </item>
+</menu>

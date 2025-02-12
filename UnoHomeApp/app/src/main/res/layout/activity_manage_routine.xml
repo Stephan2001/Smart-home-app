@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    style="@style/SCREEN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageRoutine">
+
+    <TextView
+        android:id="@+id/txtStarterLabel2RT"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/turn_off_all_devices_title"
+        app:layout_constraintBottom_toTopOf="@+id/btnTurnOffRT"
+        app:layout_constraintEnd_toEndOf="@+id/btnTurnOffRT"
+        app:layout_constraintTop_toBottomOf="@+id/lblRoutineNameRT" />
+
+    <Button
+        android:id="@+id/btnTurnOffRT"
+        style="@style/BUTTON"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/txtStarterLabel"
+        android:layout_marginBottom="71dp"
+        android:text="@string/turn_off_button"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/txtStarterLabelRT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStarterLabel2RT" />
+
+    <ImageButton
+        android:id="@+id/imgBackRT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="244dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toStartOf="@+id/imgProfileIconRT"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgbackarrow" />
+
+    <ImageView
+        android:id="@+id/imgProfileIconRT"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="46dp"
+        android:contentDescription="Profile Icon"
+        android:src="@drawable/imgprofilepic"
+        app:layout_constraintBottom_toTopOf="@+id/txtAddAutomationTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgBackRT"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtAddAutomationTitle"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/manage_automation_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lblRoutineNameRT"
+        app:layout_constraintStart_toEndOf="@+id/imgBackRT"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfileIconRT" />
+
+    <TextView
+        android:id="@+id/lblRoutineNameRT"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:text="@string/routinename_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtStarterLabel2RT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddAutomationTitle" />
+
+    <TextView
+        android:id="@+id/txtStarterLabel"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="@string/change_starter_title"
+        app:layout_constraintBottom_toTopOf="@+id/btnSetTimeRT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1RT" />
+
+    <Button
+        android:id="@+id/btnSetTimeRT"
+        style="@style/BUTTON"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/txtStarterLabel"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/click_me_to_set_time_automation_button"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnSaveRoutineRT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtStarterLabel" />
+
+    <Button
+        android:id="@+id/btnSaveRoutineRT"
+        style="@style/BUTTON"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/save_button"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSetTimeRT" />
+
+    <TextView
+        android:id="@+id/txtStarterLabelRT"
+        style="@style/TEXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="@string/disable_enable_routine_text"
+        app:layout_constraintBottom_toTopOf="@+id/switch1RT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTurnOffRT" />
+
+    <Switch
+        android:id="@+id/switch1RT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="57dp"
+        android:text="@string/switch_text"
+        app:layout_constraintBottom_toTopOf="@+id/txtStarterLabel"
+        app:layout_constraintStart_toStartOf="@+id/txtStarterLabelRT"
+        app:layout_constraintTop_toBottomOf="@+id/txtStarterLabelRT" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

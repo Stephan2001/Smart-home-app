@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/SCREEN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardFragment">
+
+    <ImageView
+        android:id="@+id/imgProfileIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="7dp"
+        android:contentDescription="Profile Icon"
+        android:src="@drawable/imgprofilepic" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:text=""
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        style="@style/TEXT"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:textSize="22sp"
+        style="@style/TEXT"/>
+
+    <TextView
+        android:id="@+id/txtGasSensor"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/gas_sensor_button"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSteamSensor"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/steam_sensor_button"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtSoilSensor"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/soil_sensor_button"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtGasSensorReading"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/reading_button_text"
+        android:textColor="@color/white"/>
+
+
+    <TextView
+        android:id="@+id/txtSteamSensorReading"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/reading_button_text"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/txtSoilSensorReading"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="353dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/reading_button_text"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/sensor_readings_title"
+        android:textSize="28sp"
+        style="@style/TEXT"/>
+
+    <ImageView
+        android:id="@+id/imgRefreshGasReading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/txtGasSensorReading"
+        android:layout_alignBottom="@+id/txtGasSensorReading"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/refreshicon" />
+
+    <ImageView
+        android:id="@+id/imgRefreshSteamReading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/txtSteamSensorReading"
+        android:layout_alignBottom="@+id/txtSteamSensorReading"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/refreshicon" />
+
+    <ImageView
+        android:id="@+id/imgRefreshSoilReading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/txtSoilSensorReading"
+        android:layout_alignBottom="@+id/txtSoilSensorReading"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/refreshicon" />
+
+    <TextView
+        android:id="@+id/txtHistory"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/reading_item_background"
+        android:text="@string/activity_history_button"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnPanicButton"
+        android:layout_width="138dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/quantum_error_light"
+        android:text="PANIC" />
+
+</RelativeLayout>

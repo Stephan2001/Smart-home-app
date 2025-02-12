@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OPSC7312_POE</string>
+
+    <!-- PRIVACY POLICY -->
+    <!-- privacy policy title -->
+    <string name="privacy_title">Privaatheid</string>
+    <!-- privacy policy text -->
+    <string name="privacy_policy">
+        By <b>UNO-HOME</b> waardeer ons jou privaatheid en is ons daartoe verbind om jou persoonlike inligting te beskerm.
+        Hierdie Privaatheidsbeleid beskryf hoe ons jou inligting insamel, gebruik, openbaar en beveilig wanneer jy ons slimhuis gebruik
+        toepassing.\n\n
+
+        <b>Persoonlike inligting wat ingesamel is:\n</b>
+        Wanneer jy \'n profiel skep of die UNO-HOME-toepassing gebruik, kan ons die volgende persoonlike inligting insamel:\n
+            \t\t\t- Naam\n
+            \t\t\t- E-posadres\n
+            \t\t\t- Telefoonnommer\n
+            \t\t\t- Huisadres\n\n
+
+        <b>Datasekuriteit\n</b>
+        Ons neem die sekuriteit van jou persoonlike inligting ernstig op en implementeer redelike maatreëls om dit
+        te beskerm teen ongemagtigde toegang, openbaarmaking, verandering of vernietiging. Maar asseblief
+        onthou dat geen metode van oordrag oor die internet of elektroniese berging 100%% veilig is nie.\n\n
+
+        Deur die UNO-HOME-toepassing te gebruik, stem jy in tot die terme van hierdie Privaatheidsbeleid. Dankie dat jy gekies het
+        om UNO-HOME u slimhuis-ervaring te verbeter!
+    </string>
+
+    <!-- Language page title -->
+    <string name="title">Taal</string>
+    <!-- Language page English button -->
+    <string name="language1">Engels</string>
+    <!-- Language page Afrikaans button -->
+    <string name="language2">Afrikaans</string>
+
+    <!-- ADD DEVICE PAGE -->
+    <!-- add device page title -->
+    <string name="add_devices_title">Kies toestelle</string>
+    <!-- add device page button -->
+    <string name="add_devices_button">Voeg toestelle by</string>
+
+    <!-- ADD ROUTINE PAGE -->
+    <!-- add routine page title -->
+    <string name="add_routine_title">Skep roetine</string>
+    <!-- add routine page hint text -->
+    <string name="enter_routine_name_hint">Voer roetinenaam in</string>
+    <!-- add routine page timer title -->
+    <string name="set_time_trigger_title">Stel tydsneller in</string>
+    <!-- add routine page set time button -->
+    <string name="click_me_to_set_time_button">Stel tyd</string>
+    <!-- add routine page choose routine title -->
+    <string name="choose_routine_s_devices_title">Kies Roetine se toestelle</string>
+    <!-- add routine page create routine button -->
+    <string name="create_routine_button">Skep roetine</string>
+
+    <!-- ADD THEME PAGE -->
+    <!-- add theme page title -->
+    <string name="add_theme_title">Skep Tema</string>
+    <!-- add theme page hint text -->
+    <string name="theme_name_hint_text">Tema Naam</string>
+    <!-- add theme page choose device title -->
+    <string name="choose_theme_s_devices_title">Kies Tema se toestelle</string>
+    <!-- add theme page create theme button -->
+    <string name="create_theme_button">Skep Tema</string>
+
+    <!-- MANAGE DEVICE PAGE -->
+    <!-- manage device page title -->
+    <string name="manage_device_title">Bestuur Toestel</string>
+    <!-- manage device page hint text -->
+    <string name="device_name_hint_text">Toestelnaam</string>
+    <!-- manage device page switch title -->
+    <string name="turn_device_on_off_text">Skakel toestel aan/af</string>
+    <!-- manage device page remove device button -->
+    <string name="remove_device_button">Verwyder Toestel</string>
+
+    <!-- LOGIN PAGE -->
+    <!-- login page fingerprint button -->
+    <string name="sign_in_with_fingerprint_button">Teken in met vingerafdruk</string>
+    <!-- login page google button -->
+    <string name="continue_with_google_button">Gaan voort met Google</string>
+
+    <!-- MANAGE AUTOMATION PAGE -->
+    <!-- manage automation page title -->
+    <string name="manage_automation_title">Bestuur outomatisering</string>
+    <!-- manage automation page routineName -->
+    <string name="routinename_text">Roetinenaam</string>
+    <!-- manage automation page turn off/on switch text -->
+    <string name="turn_off_all_devices_title">Skakel alle toestelle af</string>
+    <!-- manage automation page turn off button -->
+    <string name="turn_off_button">Skakel af</string>
+    <!-- manage automation page disable/enable title -->
+    <string name="disable_enable_routine_text">Deaktiveer/aktiveer roetine</string>
+    <!-- manage automation page switch text -->
+    <string name="switch_text">Skakel</string>
+    <!-- manage automation page change starter title -->
+    <string name="change_starter_title">Verander aansitter</string>
+    <!-- manage automation page change starter button -->
+    <string name="click_me_to_set_time_automation_button">Stel tyd</string>
+    <!-- manage automation page save button -->
+    <string name="save_button">Stoor</string>
+
+    <!-- NOTIFICATIONS PAGE -->
+    <!-- notifications page title -->
+    <string name="notifications_title">Kennisgewings</string>
+    <!-- notifications page on/off switch title -->
+    <string name="turn_notifications_on_off_title">Skakel kennisgewings aan/af</string>
+
+    <!-- REGISTER PAGE -->
+    <!-- register page email hint text -->
+    <string name="email_hint_text">E-pos</string>
+    <!-- register page password hint text -->
+    <string name="password_hint_text">Wagwoord</string>
+    <!-- register page confirm password hint text -->
+    <string name="confirm_password_hint_text">Bevestig Wagwoord</string>
+    <!-- register page email register button -->
+    <string name="register_button">Registreer</string>
+
+    <!-- AUTOMATIONS PAGE -->
+    <!-- automations page title -->
+    <string name="routines_title">Roetines</string>
+
+
+    <!-- DASHBOARD PAGE -->
+    <!-- dashboard page title -->
+    <string name="sensor_readings_title">Sensorlesings:</string>
+    <!-- dashboard page gas button -->
+    <string name="gas_sensor_button">Gassensor</string>
+    <!-- dashboard page steam button -->
+    <string name="steam_sensor_button">Stoomsensor</string>
+    <!-- dashboard page soil button -->
+    <string name="soil_sensor_button">Grondsensor</string>
+    <!-- dashboard page reading button -->
+    <string name="reading_button_text">Leesing</string>
+    <!-- dashboard page activity history button -->
+    <string name="activity_history_button">Aktiwiteit Geskiedenis</string>
+
+    <!-- DEVICES PAGE -->
+    <!-- devices page title -->
+    <string name="devices_title">Toestelle</string>
+
+    <!-- SENSOR HISTORY PAGE -->
+    <!-- senosor history page title -->
+    <string name="sensor_history_title">Sensor Geskiedenis</string>
+
+    <!-- SETTINGS PAGE -->
+    <!-- settings page title -->
+    <string name="settings_title">Instellings</string>
+    <!-- settings page privacy button -->
+    <string name="privacy_button">Privaatheid</string>
+    <!-- settings page notification button -->
+    <string name="notifications_button">Kennisgewings</string>
+    <!-- settings page language button -->
+    <string name="app_language_button">Toep Taal</string>
+    <!-- settings page light/dark mode switch title -->
+    <string name="dark_light_mode_switch_title">Donker/Lig modus</string>
+    <!-- settings page switch text -->
+    <string name="on_off_switch">Aan/Af</string>
+
+    <!-- THEMES PAGE -->
+    <!-- themes page title -->
+    <string name="themes_title">Temas</string>
+
+    <!-- NAV BAR ELEMENTS -->
+    <!-- home title -->
+    <string name="home_nav_bar_title">Huis</string>
+    <!-- devices title -->
+    <string name="devices_nav_bar_title">Toestelle</string>
+    <!-- routines title -->
+    <string name="routines_nav_bar_title">Roetines</string>
+    <!-- themes title -->
+    <string name="themes_nav_bar_title">Temas</string>
+    <!-- settings title -->
+    <string name="settings_nav_bar_title">Instellings</string>
+</resources>
