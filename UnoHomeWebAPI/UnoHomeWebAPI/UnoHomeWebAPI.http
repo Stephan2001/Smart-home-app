@@ -1,0 +1,6 @@
+@UnoHomeWebAPI_HostAddress = http://localhost:5299
+
+GET {{UnoHomeWebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
